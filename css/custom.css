@@ -1,0 +1,66 @@
+body{
+	background: #222222;
+
+}
+
+#links {
+	text-align: center;
+}
+
+.page-title {
+	position: fixed;
+ 	top: 0px;
+  	left: 100px;
+  	opacity:1;
+  	color: #fff;
+  	text-shadow: 1px 0 1px #000000;
+}
+
+.page-title small {
+	color: #ed1b2e;
+}
+.blueimp-gallery > .location,.partner {
+	position: absolute;
+	left: 100px;
+	color: #ffffff;
+	text-shadow: 0 0 2px #000000;
+	opacity: 1;
+}
+.blueimp-gallery > .location {
+	top: 0px;
+}
+.blueimp-gallery > .partner {
+  top: 50px;
+}
+
+.blueimp-gallery-controls > .description {
+  display: block;
+}
+
+.blueimp-gallery > .play-pause {
+	left: 15px;
+}
+
+.prc-logo-gallery {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 99;
+}
+.prc-logo {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	z-index: 99;
+}
+.ifrc-logo-gallery {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	background: #f5f5f5;
+	z-index: 99;
+}
+.ifrc-logo {
+	background: #ffffff;
+	margin: 12px;
+}
